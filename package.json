@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce-ejs-complete-v3",
+  "version": "3.0.0",
+  "description": "React ecommerce storefront with Express, MongoDB, sessions, roles, OTP, Razorpay and daily host sales",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "vite build --config client/vite.config.js",
+    "dev": "vite --config client/vite.config.js",
+    "admin": "node createAdmin.js",
+    "seed": "node seedDemo.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.2",
+    "passport-google-oauth20": "^2.0.0",
+    "razorpay": "^2.9.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.3"
+  }
+}
